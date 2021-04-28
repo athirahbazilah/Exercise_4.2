@@ -42,7 +42,7 @@ public class RedApple extends Apple {
 	}
 	
 	public String toString() {
-		return super.toString() + ("\nRed Apple Constructor is Invoked" + "\nTaste: " + taste + "\nCalories: " + calories + "Total Price: RM " + TotalPrice() + "\nTotal Calories: " + TotalCalories());
+		return super.toString() + ("\nRed Apple Constructor is Invoked" + "\nTaste: " + taste + "\nCalories: " + calories + "\nTotal Calories: " + TotalCalories());
 	}
 
 }

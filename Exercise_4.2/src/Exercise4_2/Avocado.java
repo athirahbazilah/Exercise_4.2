@@ -39,7 +39,7 @@ public class Avocado extends Apple {
 	}
 	
 	public String toString() {
-		return super.toString() + ("\nAvocado Constructor is Invoked" + "\nQuantity Rotten: " + rotten + "\nTotal Good: " + TotalGood() + "\nTotal Price: RM " + TotalPrice());
+		return super.toString() + ("\nAvocado Constructor is Invoked" + "\nQuantity Rotten: " + rotten + "\nTotal Good: " + TotalGood());
 	}
 
 }
